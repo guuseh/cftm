@@ -1,0 +1,538 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: montserrat;
+  src: url(fonts/Montserrat-Light.ttf);
+}
+
+@font-face{
+  font-family: vendetta;
+  src: url(fonts/Vendetta.otf);
+}
+
+@font-face{
+  font-family: montserratBold;
+  src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+  font-family: montserratItalics;
+  src: url(fonts/Montserrat-LightItalic.ttf);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+width: 4px;
+height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: blue;
+border-radius: 2.5px;
+height: 30px;
+}
+
+.disclaimer{
+  display: none;
+}
+
+html{
+  cursor: url(images/smiley.png), auto;
+}
+
+
+body{
+  background-color: white;
+  font-family: 'montserrat';
+}
+
+h1{
+  font-weight:600;
+}
+
+p{
+  margin-top: 0.5rem;
+}
+
+header{
+  position: fixed;
+  top: 20px;
+  right: 0;
+  width: 200px;
+  text-align: right;
+  background-color: white;
+  float: right;
+  text-align: right;
+}
+
+.right-nav{
+  color: blue;
+  font-size: 1.2em;
+  font-weight: 100;
+  padding: 5px 25% 5px 5px;
+  margin: 10px;
+  margin-right: 0px;
+  display: block;
+  border-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'vendetta';
+  cursor: pointer;
+}
+
+.right-nav:hover {
+  filter: blur(2px);
+}
+
+a{
+  cursor: url(images/li.png), auto;
+  font-family: 'Times New Roman';
+  font-size: 1.2rem;
+  font-style: italic;
+}
+a:link{
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited{
+  filter: blur(4px);
+  color: blue;
+  text-decoration: line-through;
+}
+
+/* a:hover{
+  text-decoration: none;
+  filter: blur(2px);
+} */
+.link:hover{
+  filter: blur(2px);
+}
+
+/*.tooltip:hover a{
+  text-decoration: none;
+  filter: blur(4px);
+}*/
+
+a:active{
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+}
+
+.guus{
+  font-family: 'vendetta';
+  font-size: 1.7em;
+}
+
+.pages{
+  display: block;
+  padding-left: 300px;
+  padding-top: 100px;
+  color: blue;
+  padding-right: 300px;
+  width: 100%;
+}
+
+.description{
+  display:inline-block;
+  position: fixed;
+  width: 350px;
+  z-index: 1;
+  overflow: auto;
+  height: 70%;
+  padding-right: 10px;
+}
+
+.kurrentp{
+  width:500px; 
+  margin-left: 70px;
+}
+
+.extrainfo{
+  display:inline-block;
+  position: absolute;
+  right: 100px;
+  width: 250px;
+  z-index: 1;
+}
+
+.projectimg{
+  margin: 0 0 0 400px;
+  position: relative;
+  display: block;
+  box-shadow: 0px 0px 20px 2px blue;
+  width: 80%;
+  height: 300px;
+}
+
+.container{
+  position: relative;
+  left: 250px;
+}
+
+.alteregoimg{
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0px 0px 20px 2px blue;
+}
+
+.slideshow{
+  position: relative;
+  top: 93px;
+  left: 170px;
+  margin-bottom: 200px;
+  box-shadow: 0px 0px 20px 2px blue;
+}
+
+.button{
+  border-radius: 50%;
+  padding: 7px 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.button:hover{
+ box-shadow: 0px 0px 20px 2px blue;
+}
+
+canvas { 
+display: block; 
+outline: 0px;  
+  z-index: -1;
+}
+
+
+.tooltip {
+position: relative;
+width: 200px;
+z-index: 6;
+}
+
+.tooltip2 {
+position: relative;
+width: 100%;
+z-index: 6;
+}
+
+.imghover{
+  position: fixed;
+  display: none;
+  pointer-events: none;
+}
+
+#homeimg{
+  display:none;
+}
+
+
+/* ANIMATION CSS */
+.intro{
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.logo-header{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: blue;
+  text-align: center;
+}
+
+.logo{
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+  font-family: 'vendetta';
+}
+
+.logo.active{
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 1s;
+}
+
+.logo.fade{
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 1s;
+}
+
+
+/* NAVIGATION CSS */
+.content {
+display: none
+}
+.icon{
+  display: none;
+}
+
+.nav {
+  display: block;
+  margin: 10px;
+  margin-left: 0px;
+  padding: 5px 0px 5px 15%;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+  width: 225px;
+  /* background-color: white; */
+  font-family: 'vendetta';
+  font-size: 1.2em;
+  word-wrap: break-word;
+  z-index: 10;
+  color: blue;
+  cursor: pointer;
+  font-family: 'Times New Roman';
+  font-size: 1.2rem;
+  font-style: italic;
+  /* text-decoration: underline; */
+}
+
+.nav:active {
+  background-color: blue;
+  color: white;
+}
+
+.nav:hover{
+  filter: blur(2px);
+}
+
+.navigation {
+  padding: 40px;
+  padding-left: 0;
+  width: 20%;
+  position: fixed;
+  top: 25%;
+  display: inline-block;
+  border: 1px blue;
+}
+
+#writingnav {
+  display: inline-block;
+  margin: 2px;
+  margin-left: 0px;
+  padding: 5px 15px;
+  border-style: solid;
+  border-color: blue;
+  border-width: .5px;
+  background-color: transparent;
+  font-family: 'vendetta';
+  font-size: 1.7em;
+  z-index: 6;
+}
+#writingnav:hover{
+  filter: blur(2px);
+}
+
+.vimeocontEI{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.vimeoiframeEI{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: none;
+}
+
+
+@media (max-width: 600px){
+  
+  body{
+      max-width: 100vw;
+      width: 100vw;
+      /* height: 100vh; */
+  }
+  
+  header{
+      position: fixed;
+      top: 10px;
+      right: 0;
+      width: 35vw;
+      text-align: right;
+      background-color: transparent;
+      float: right;
+      text-align: right;
+  }
+  .right-nav{
+      color: blue;
+      font-size: 1.4em;
+      font-weight: 100;
+      padding: 2px 5vw 2px 2px;
+      margin: 5px;
+      margin-right: 0px;
+      display: block;
+      border-color: blue;
+      border-style: solid;
+      border-width: 1px;
+      font-family: 'vendetta';
+  }
+  .pages{
+      display: block;
+      padding-left: 5vw;
+      padding-top: 20vh;
+      color: blue;
+      padding-right: 5vw;
+      width: 95vw;
+      z-index: -1;
+      margin-bottom: 8vh;
+  }
+  .description{
+      position: relative;
+      width: 90vw;
+      z-index: 1;
+      height: 100%;
+      padding-right: 10px;
+  }
+  .nav {
+      display: block;
+      margin: 5px;
+      margin-left: 0px;
+      padding: 5px 0px 5px 10vw;
+      border-style: solid;
+      border-color: blue;
+      border-width: 1px;
+      min-width: 50vw;
+      background-color: white;
+      font-family: 'vendetta';
+      font-size: 1.4em;
+  }
+  .navigation {
+      padding: 0;
+      width: 20%;
+      position: fixed;
+      top: auto;
+      bottom: 5vh;
+      left: 5vw;
+      display: none;
+      border: 1px blue;
+      z-index: 20;
+  }
+  .navigation.responsive{
+      display: inline-block;
+  }
+  .icon{
+      display: block;
+      position: fixed;
+      bottom: 2vh;
+      left:5vw;
+      background-color: blue;
+      color: white;
+      z-index: 20;
+  }
+  .extrainfo{
+      display:inline-block;
+      position: initial;
+      z-index: 1;
+  }
+  .projectimg{
+      margin: 3vh 2vh 3vh 2vh;
+      position: initial;
+      display: block;
+      box-shadow: 0px 0px 20px 2px blue;
+      max-width: 80vw;
+  }
+  .slideshow{
+      position: initial;
+      margin-bottom: 10vh;
+      box-shadow: 0px 0px 20px 2px blue;
+      max-width: 90vw;
+      margin-top: 5vh;
+  }
+  .container{
+      position: initial;
+      max-width: 90vw;
+      margin-bottom: 5vh;
+  }
+  .alteregoimg{
+      margin: 10px 0px 10px 0px;
+      display: inline-block;
+      box-shadow: 0px 0px 20px 2px blue;
+      width: 90vw;
+  }
+  .vimeocont{
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+  }
+  .vimeoiframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      filter: none;
+  }
+  #lijntjesensuperformulesamen{
+      width: 90vw;
+  }
+  .kurrentp{
+      padding: 0;
+      width: 90vw;
+      margin: 0;
+  }
+  #writingnav {
+      display: inline-block;
+      margin: 2px;
+      margin-left: 0px;
+      padding: 5px 15px;
+      border-style: solid;
+      border-color: blue;
+      border-width: 1px;
+      background-color: transparent;
+      font-family: 'vendetta';
+      font-size: 1.4em;
+      z-index: 6;
+  }
+  .about{
+      margin-bottom: 10vh;
+  }
+  .cv{
+      margin-bottom: 10vh;
+      width: 90vw;
+      /* word-wrap: break-word; */
+      overflow-wrap: break-word;
+  }
+  .contenthover {
+      display: none;
+  }
+  #homeimg{
+      display:block;
+      width: 70vw;
+      padding-top: 10vh;
+      margin-left: 10vw;
+  }
+  #homeimg img{
+      width: 70vw;
+      /* -webkit-filter: drop-shadow(0px 0px 15px blue); */
+  }
+}
