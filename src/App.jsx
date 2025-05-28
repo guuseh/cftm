@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import Home from "./pages/Home"
 import Odditype from "./pages/Odditype"
@@ -51,7 +51,7 @@ function App() {
   const isNotSmall = useIsSmall();
 
   return (
-    <BrowserRouter basename="/cftm/">
+    <HashRouter basename="/cftm/">
 
     <Menu small={!isNotSmall} />
     <Header small={!isNotSmall} />
@@ -68,7 +68,7 @@ function App() {
         <Route index path="thehmm" element={<Thehmm small={!isNotSmall}/>} />
       </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
