@@ -51,7 +51,7 @@ function App() {
   const isNotSmall = useIsSmall();
 
   return (
-    <HashRouter basename={import.meta.env.DEV ? "/" : "/cftm/"}>
+    <HashRouter>
 
     <Menu small={!isNotSmall} />
     <Header small={!isNotSmall} />
