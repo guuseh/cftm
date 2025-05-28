@@ -51,7 +51,7 @@ function App() {
   const isNotSmall = useIsSmall();
 
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/cftm/">
 
     <Menu small={!isNotSmall} />
     <Header small={!isNotSmall} />
