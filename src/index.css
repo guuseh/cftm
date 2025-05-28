@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@font-face{
+/* @font-face{
   font-family: montserrat;
   src: url(fonts/Montserrat-Light.ttf);
 }
@@ -22,7 +22,7 @@
 @font-face{
   font-family: montserratItalics;
   src: url(fonts/Montserrat-LightItalic.ttf);
-}
+} */
 
 
 /* width */
@@ -47,9 +47,9 @@ height: 30px;
   display: none;
 }
 
-html{
+/* html{
   cursor: url(images/smiley.png), auto;
-}
+} */
 
 
 body{
@@ -96,7 +96,7 @@ header{
 }
 
 a{
-  cursor: url(images/li.png), auto;
+  /* cursor: url(images/li.png), auto; */
   font-family: 'Times New Roman';
   font-size: 1.2rem;
   font-style: italic;
