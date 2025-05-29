@@ -312,12 +312,15 @@ display: none
   header{
       position: fixed;
       top: 10px;
-      right: 0;
+      right: -1px;
       width: 35vw;
       text-align: right;
       background-color: transparent;
       float: right;
       text-align: right;
+      height: 2.5rem;
+      /* display: flex; */
+      /* align-items: center; */
   }
   .right-nav{
       color: blue;
@@ -330,7 +333,10 @@ display: none
       border-color: blue;
       border-style: solid;
       border-width: 1px;
-      height: 2rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: end;
   }
   .pages{
       display: block;
@@ -376,13 +382,14 @@ display: none
       height: fit-content;
   }
   .icon{
-      display: block;
+      display: flex;
+      align-items: center;
       position: fixed;
       font-family: "Times New Roman";
       color: blue;
-      height: 2rem;
+      height: 2.5rem;
       margin: 5px;
-      margin-left: 0px;
+      margin-left: -1px;
       padding: 0px 0px 0px 30px;
       line-height: 1.9rem;
       border-style: solid;

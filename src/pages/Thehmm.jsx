@@ -7,11 +7,11 @@ const Thehmm = () => {
         <h1>working for The Hmm</h1>
 
         <p className="description">
-            In 2021 I started my internship at The Hmm, platform for internet cultures, and after 5 months stayed on the team as a freelancer to work on various projects and disciplines over the course of now four years (and counting).
+            In 2021 I started my internship at <a href="https://thehmm.nl/" target="_blank" rel="noreferrer">The Hmm&#10548;&#xFE0E;</a>, platform for internet cultures, and after 5 months stayed on the team as a freelancer to work on various projects and disciplines over the course of now four years (and counting).
             I helped shape year-long thematic programs through events, workshops, publications, and web-based tools, supported by graphic design, research and writing. Each year we reframe our focus, building on what came before while experimenting with new ways to share research publicly and create engaging formats for conversation. It has taught me how to be comfortable with ambiguity—how to slowly build something that shifts and settles, guided by dialogue, trust, and iteration. 
         </p>
 
-        <p className="extrainfo"><p>Metaphormaxxing – web design & exhibition design</p></p>
+        <p className="extrainfo"><p><a href="https://metaphormaxxing.com/" target="_blank" rel="noreferrer" style={{color: "white", fontWeight: "normal"}}>Metaphormaxxing&#10548;&#xFE0E;</a> – web design & exhibition design</p></p>
 
         <img className="projectimg" src="./img/thehmm/metaphormaxxing/maxxing3.png" />
         <div className="imgcontainer">
@@ -21,7 +21,7 @@ const Thehmm = () => {
         <img className="projectimg" src="./img/thehmm/metaphormaxxing/figma.png" />
         <img className="projectimg" src="./img/thehmm/metaphormaxxing/space.png" />
 
-        <p className="extrainfo"><p>Toolkit for the Inbetween – web design & merch design</p></p>
+        <p className="extrainfo"><p><a href="https://toolkitfortheinbetween.com" target="_blank" rel="noreferrer" style={{color: "white", fontWeight: "normal"}}>Toolkit for the Inbetween&#10548;&#xFE0E;</a> – web design & merch design</p></p>
 
         <img className="projectimg" src="./img/thehmm/toolkit/weavingspaces7.png" />
         <div className="imgcontainer">
@@ -44,12 +44,12 @@ const Thehmm = () => {
           <img src="./img/thehmm/hmmosphere/info2.png" style={{width: "49%"}}/>
         </div>
 
-        <p className="extrainfo"><p>Momfluencers – online mapping tool</p></p>
+        <p className="extrainfo"><p><a href="https://maps.thehmm.nl" target="_blank" rel="noreferrer" style={{color: "white", fontWeight: "normal"}}>Momfluencers&#10548;&#xFE0E;</a> – online mapping tool</p></p>
 
         <img className="projectimg" src="./img/thehmm/momfluencers/momfluencers1.png" />
         <img className="projectimg" src="./img/thehmm/momfluencers/momfluencers2.png" />
 
-        <p className="extrainfo"><p>Prompt Battle – workshop tool and standalone website</p></p>
+        <p className="extrainfo"><p><a href="https://battle.thehmm.nl" target="_blank" rel="noreferrer" style={{color: "white", fontWeight: "normal"}}>Prompt Battle&#10548;&#xFE0E;</a> – workshop tool and standalone website</p></p>
 
         <div className="imgcontainer">
           <img src="./img/thehmm/promptbattle/standalone-1.png" style={{width: "49%"}}/>

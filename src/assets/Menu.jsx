@@ -55,7 +55,7 @@ const Menu = ({small}) => {
     </div>
     :
     <>
-    <div className="icon" onClick={() => {handleMenu()}}>projects&#10549;</div>
+    <div className="icon" onClick={() => {handleMenu()}}>projects&#10549;&#xFE0E;</div>
     <div className="navigation" style={{top: top + "px"}}>
         <div className="nav" onClick={() => {navigate('odditype'); handleMenu()}}>odditype</div>
         <div className="nav" onClick={() => {navigate('hyperlink'); handleMenu()}}>hyperlink//</div>
