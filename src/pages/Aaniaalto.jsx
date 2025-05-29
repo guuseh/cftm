@@ -11,18 +11,18 @@ const Aaniaalto = () => {
             The motion design inspiration came from a small tool I developed earlier that year to morph typography in relation to the Superformula.
             I worked on the visual identity, physical posters, instagram posts (together with Anh Ngo), visuals for during the festival, and the web design and development.</p>
     
-        <img className="projectimg" src="/img/aaniaalto/entrance.gif" />
-        <video className="projectimg" autoplay controls src="/img/aaniaalto/entranceanimation.mp4"/>
-        <video className="projectimg" autoplay controls src="/img/aaniaalto/FontGlitch.mp4" />
+        <img className="projectimg" src="./img/aaniaalto/entrance.gif" />
+        <video className="projectimg" autoplay controls src="./img/aaniaalto/entranceanimation.mp4"/>
+        <video className="projectimg" autoplay controls src="./img/aaniaalto/FontGlitch.mp4" />
         <div className="imgcontainer">
-          <img src="/img/aaniaalto/poster1.png" style={{width: "49%"}}/>
-          <img src="/img/aaniaalto/poster2.png" style={{width: "49%"}}/>
+          <img src="./img/aaniaalto/poster1.png" style={{width: "49%"}}/>
+          <img src="./img/aaniaalto/poster2.png" style={{width: "49%"}}/>
         </div>
-        <img className="projectimg" src="/img/aaniaalto/glitch3.gif" />
+        <img className="projectimg" src="./img/aaniaalto/glitch3.gif" />
         <div className="imgcontainer">
-          <img src="/img/aaniaalto/oodiposters1.png" style={{width: "31%"}}/>
-          <img src="/img/aaniaalto/oodiposters2.png" style={{width: "31%"}}/>
-          <img src="/img/aaniaalto/oodiposters3.png" style={{width: "31%"}}/>
+          <img src="./img/aaniaalto/oodiposters1.png" style={{width: "31%"}}/>
+          <img src="./img/aaniaalto/oodiposters2.png" style={{width: "31%"}}/>
+          <img src="./img/aaniaalto/oodiposters3.png" style={{width: "31%"}}/>
         </div>
 
     </div>
