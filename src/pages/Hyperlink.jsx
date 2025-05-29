@@ -1,6 +1,16 @@
-import React from 'react'
+import {useEffect} from 'react'
 
 const Hyperlink = () => {
+
+useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+        document.title = "hyperlink// :) Guus Hoeberechts"
+  }, [])
+
   return (
     <div>
       <h5>interactive web animation – 2024</h5>

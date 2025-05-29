@@ -1,6 +1,16 @@
-import React from 'react'
+import { useEffect} from 'react'
 
 const Hypertext = () => {
+
+  useEffect(() => {
+          window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: "smooth"
+          });
+          document.title = "hypertext :o Guus Hoeberechts"
+    }, [])
+
   return (
     <div>
       <h5>MA thesis – 2025 (ongoing)</h5>

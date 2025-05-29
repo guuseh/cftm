@@ -1,6 +1,16 @@
-import React from 'react'
+import { useEffect} from 'react'
 
 const Kurrent = () => {
+
+  useEffect(() => {
+          window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: "smooth"
+          });
+          document.title = "kurrent typeface :) Guus Hoeberechts"
+    }, [])
+
   return (
     <div>
       <h5>typeface – 2019-2023</h5>

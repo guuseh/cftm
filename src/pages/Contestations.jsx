@@ -1,6 +1,16 @@
-import React from 'react'
+import {useEffect} from 'react'
 
 const Contestations = () => {
+
+  useEffect(() => {
+          window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: "smooth"
+          });
+          document.title = "contestations.ai :) Guus Hoeberechts"
+    }, [])
+
   return (
     <div>
       <h5>web development & motion design – 2024</h5>

@@ -1,6 +1,16 @@
-import React from 'react'
+import {useEffect} from 'react'
 
 const Aaniaalto = () => {
+
+  useEffect(() => {
+          window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: "smooth"
+          });
+          document.title = "aaniaalto'23 :) Guus Hoeberechts"
+    }, [])
+
   return (
     <div>
       <h5>visual identity & web development – 2023</h5>

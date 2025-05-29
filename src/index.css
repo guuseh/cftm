@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-variant-emoji: unicode;
+  font-variant-emoji: text;
 }
 
 @font-face{

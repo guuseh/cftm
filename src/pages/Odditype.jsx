@@ -8,7 +8,7 @@ const Odditype = () => {
             left: 0,
             behavior: "smooth"
         });
-        document.title = "Odditype :) Guus Hoeberechts"
+        document.title = "odditype :) Guus Hoeberechts"
   }, [])
 
   return (
