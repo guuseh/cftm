@@ -51,7 +51,7 @@ const Menu = ({small}) => {
         <div className="nav" onClick={() => navigate('hypertext')} onMouseEnter={() => handleMouseEnter("./img/hypertext/tooltip.gif", 250)} onMouseLeave={() => handleMouseLeave()} onMouseMove={(e) => handleMouseMove(e)}>hypertext & the design process</div>
         <div className="nav" onClick={() => navigate('kurrent')} onMouseEnter={() => handleMouseEnter("./img/kurrent/tooltip.gif", 250)} onMouseLeave={() => handleMouseLeave()} onMouseMove={(e) => handleMouseMove(e)}>kurrent typeface</div>
         <div className="nav" onClick={() => navigate('thehmm')} onMouseEnter={() => handleMouseEnter("./img/thehmm/tooltip.gif", 250)} onMouseLeave={() => handleMouseLeave()} onMouseMove={(e) => handleMouseMove(e)}>the hmm</div>
-        <div className="nav"><a href="https://www.guushoeberechts.nl/sony.html" target="_blank" rel="noreferrer">all works (kinda) &#10548;</a></div>
+        <div className="nav"><a href="https://www.guushoeberechts.nl/sony.html" target="_blank" rel="noreferrer">all works (kinda) &#10548;&#xFE0E;</a></div>
     </div>
     :
     <>
@@ -64,7 +64,7 @@ const Menu = ({small}) => {
         <div className="nav" onClick={() => {navigate('hypertext'); handleMenu()}}>hypertext & the design process</div>
         <div className="nav" onClick={() => {navigate('kurrent'); handleMenu()}}>kurrent typeface</div>
         <div className="nav" onClick={() => {navigate('thehmm'); handleMenu()}}>the hmm</div>
-        <div className="nav"><a href="https://www.guushoeberechts.nl/sony.html" target="_blank" rel="noreferrer">all works (kinda) &#10548;</a></div>
+        <div className="nav"><a href="https://www.guushoeberechts.nl/sony.html" target="_blank" rel="noreferrer" style={{fontSize: "1.4rem"}}>all works (kinda) &#10548;&#xFE0E;</a></div>
     </div>
     </>
     }

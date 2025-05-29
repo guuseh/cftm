@@ -351,10 +351,10 @@ display: none
   }
   .nav {
       display: block;
-      height: 2rem;
+      /* height: 2rem; */
       margin: 5px;
       margin-left: 0px;
-      padding: 0px 0px 2px 2px;
+      padding: 2px 2px 4px 5px;
       border-style: solid;
       border-color: blue;
       border-width: 1px;
