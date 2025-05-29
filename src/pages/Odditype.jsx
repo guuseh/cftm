@@ -11,11 +11,11 @@ const Odditype = () => {
         For an exhibition, a functionality was added to write your own message and print it out on a receipt printer.</p>
 
 
-        <img className="projectimg" src="/img/odditype/odditype.gif"></img>
-        <img className="projectimg" src="/img/odditype/odditype1.png"></img>
-        <img className="projectimg" src="/img/odditype/odditype2.png"></img>
-        <img className="projectimg" src="/img/odditype/odditype3.png"></img>
-        <img className="projectimg" src="/img/odditype/odditype4.png"></img>
+        <img className="projectimg" src="./img/odditype/odditype.gif"></img>
+        <img className="projectimg" src="./img/odditype/odditype1.png"></img>
+        <img className="projectimg" src="./img/odditype/odditype2.png"></img>
+        <img className="projectimg" src="./img/odditype/odditype3.png"></img>
+        <img className="projectimg" src="./img/odditype/odditype4.png"></img>
     </div>
   )
 }

@@ -12,7 +12,7 @@ const Contestations = () => {
         As part of developing the website for it, I created an animated header using React and Framer Motion. On the right is the mobile version. The animation was designed to reflect the conference’s themes of disruption and complexity, using abstract motion and layered elements. I focused on smooth yet unpredictable transitions to evoke a sense of dynamic tension.
         </p>
 
-        <video className="projectimg" autoplay controls loop src="/img/contestations/animation-mobile.mov" />
+        <video className="projectimg" autoplay controls loop src="./img/contestations/animation-mobile.mov" />
     </div>
   )
 }

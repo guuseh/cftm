@@ -12,12 +12,12 @@ const Hyperlink = () => {
         By treating the personal site as both mirror and manifestation of the fragmented self, hyperlink// reclaims a digital corner for individuality. It questions how hyperconnectivity has redefined our sense of identity and community, and invites viewers to consider what it means to truly inhabit a space online.
         </p>
 
-        <img className="projectimg" src="/img/hyperlink/hyperlink1.gif" />
-        <img className="projectimg" src="/img/hyperlink/hyperlink2.gif" />
-        <img className="projectimg" src="/img/hyperlink/hyperlink3.gif" />
-        <img className="projectimg" src="/img/hyperlink/hyperlink4.gif" />
-        <img className="projectimg" src="/img/hyperlink/hyperlink6.gif" />
-        <img className="projectimg" src="/img/hyperlink/hyperlink5.gif" />
+        <img className="projectimg" src="./img/hyperlink/hyperlink1.gif" />
+        <img className="projectimg" src="./img/hyperlink/hyperlink2.gif" />
+        <img className="projectimg" src="./img/hyperlink/hyperlink3.gif" />
+        <img className="projectimg" src="./img/hyperlink/hyperlink4.gif" />
+        <img className="projectimg" src="./img/hyperlink/hyperlink6.gif" />
+        <img className="projectimg" src="./img/hyperlink/hyperlink5.gif" />
     </div>
   )
 }

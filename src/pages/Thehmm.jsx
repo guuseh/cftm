@@ -13,73 +13,73 @@ const Thehmm = () => {
 
         <p className="extrainfo"><p>Metaphormaxxing – web design & exhibition design</p></p>
 
-        <img className="projectimg" src="/img/thehmm/metaphormaxxing/maxxing3.png" />
+        <img className="projectimg" src="./img/thehmm/metaphormaxxing/maxxing3.png" />
         <div className="imgcontainer">
-          <img src="/img/thehmm/metaphormaxxing/maxxing1.png" style={{width: "49%"}}/>
-          <img src="/img/thehmm/metaphormaxxing/maxxing2.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/metaphormaxxing/maxxing1.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/metaphormaxxing/maxxing2.png" style={{width: "49%"}}/>
         </div>
-        <img className="projectimg" src="/img/thehmm/metaphormaxxing/figma.png" />
-        <img className="projectimg" src="/img/thehmm/metaphormaxxing/space.png" />
+        <img className="projectimg" src="./img/thehmm/metaphormaxxing/figma.png" />
+        <img className="projectimg" src="./img/thehmm/metaphormaxxing/space.png" />
 
         <p className="extrainfo"><p>Toolkit for the Inbetween – web design & merch design</p></p>
 
-        <img className="projectimg" src="/img/thehmm/toolkit/weavingspaces7.png" />
+        <img className="projectimg" src="./img/thehmm/toolkit/weavingspaces7.png" />
         <div className="imgcontainer">
-          <img src="/img/thehmm/toolkit/big-bigtechgalore.png" style={{width: "25%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
-          <img src="/img/thehmm/toolkit/big-pushingsomeboundaries.png" style={{width: "32%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
-          <img src="/img/thehmm/toolkit/big-wildlyexperimental.png" style={{width: "39%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
+          <img src="./img/thehmm/toolkit/big-bigtechgalore.png" style={{width: "25%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
+          <img src="./img/thehmm/toolkit/big-pushingsomeboundaries.png" style={{width: "32%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
+          <img src="./img/thehmm/toolkit/big-wildlyexperimental.png" style={{width: "39%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
         </div>
         <div className="imgcontainer">
-          <img src="/img/thehmm/toolkit/weavingspaces1.png" style={{width: "49%"}}/>
-          <img src="/img/thehmm/toolkit/weavingspaces3.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/toolkit/weavingspaces1.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/toolkit/weavingspaces3.png" style={{width: "49%"}}/>
         </div>
-        <img className="projectimg" src="/img/thehmm/toolkit/weavingspaces6.png" />
+        <img className="projectimg" src="./img/thehmm/toolkit/weavingspaces6.png" />
 
         <p className="extrainfo"><p>Hmmosphere – packaging design</p></p>
 
-        <img className="projectimg" src="/img/thehmm/hmmosphere/square-eva.jpg" />
-        <img className="projectimg" src="/img/thehmm/hmmosphere/label.png" />
+        <img className="projectimg" src="./img/thehmm/hmmosphere/square-eva.jpg" />
+        <img className="projectimg" src="./img/thehmm/hmmosphere/label.png" />
         <div className="imgcontainer">
-          <img src="/img/thehmm/hmmosphere/info.png" style={{width: "49%"}}/>
-          <img src="/img/thehmm/hmmosphere/info2.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/hmmosphere/info.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/hmmosphere/info2.png" style={{width: "49%"}}/>
         </div>
 
         <p className="extrainfo"><p>Momfluencers – online mapping tool</p></p>
 
-        <img className="projectimg" src="/img/thehmm/momfluencers/momfluencers1.png" />
-        <img className="projectimg" src="/img/thehmm/momfluencers/momfluencers2.png" />
+        <img className="projectimg" src="./img/thehmm/momfluencers/momfluencers1.png" />
+        <img className="projectimg" src="./img/thehmm/momfluencers/momfluencers2.png" />
 
         <p className="extrainfo"><p>Prompt Battle – workshop tool and standalone website</p></p>
 
         <div className="imgcontainer">
-          <img src="/img/thehmm/promptbattle/standalone-1.png" style={{width: "49%"}}/>
-          <img src="/img/thehmm/promptbattle/standalone-2.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/promptbattle/standalone-1.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/promptbattle/standalone-2.png" style={{width: "49%"}}/>
         </div>
-        <img className="projectimg" src="/img/thehmm/promptbattle/figma.png" />
+        <img className="projectimg" src="./img/thehmm/promptbattle/figma.png" />
         <div className="imgcontainer">
-          <img src="/img/thehmm/promptbattle/prompt-stream3.png" style={{width: "49%"}}/>
-          <img src="/img/thehmm/promptbattle/prompt-user.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/promptbattle/prompt-stream3.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/promptbattle/prompt-user.png" style={{width: "49%"}}/>
         </div>
   
         <p className="extrainfo"><p>Rietveld Open Day – online experience development</p></p>
 
-        <img className="projectimg" src="/img/thehmm/rietveld/avatar.gif" />
+        <img className="projectimg" src="./img/thehmm/rietveld/avatar.gif" />
         <div className="imgcontainer">
-          <img src="/img/thehmm/rietveld/departmentpage.png" style={{width: "49%"}}/>
-          <img src="/img/thehmm/rietveld/hangout.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/rietveld/departmentpage.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/rietveld/hangout.png" style={{width: "49%"}}/>
         </div>
-        <img className="projectimg" src="/img/thehmm/rietveld/countdown.gif" />
-        <video className="projectimg" autoplay controls loop src="/img/thehmm/rietveld/start.mp4" />
+        <img className="projectimg" src="./img/thehmm/rietveld/countdown.gif" />
+        <video className="projectimg" autoplay controls loop src="./img/thehmm/rietveld/start.mp4" />
 
         <p className="extrainfo"><p>Pizza Prompt Memory Game – visual design</p></p>
 
-        <img className="projectimg" src="/img/thehmm/pizzaprompt/pizza.png" style={{boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
+        <img className="projectimg" src="./img/thehmm/pizzaprompt/pizza.png" style={{boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
         <div className="imgcontainer">
-          <img src="/img/thehmm/pizzaprompt/pizzafront.png" style={{width: "49%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
-          <img src="/img/thehmm/pizzaprompt/pizzaback.png" style={{width: "49%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
+          <img src="./img/thehmm/pizzaprompt/pizzafront.png" style={{width: "49%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
+          <img src="./img/thehmm/pizzaprompt/pizzaback.png" style={{width: "49%", boxShadow: "none", filter: "drop-shadow(0px 0px 20px blue)"}}/>
         </div>
-        <img className="projectimg" src="/img/thehmm/pizzaprompt/boekje.png" />
-        <img className="projectimg" src="/img/thehmm/pizzaprompt/boekje2.png" />
+        <img className="projectimg" src="./img/thehmm/pizzaprompt/boekje.png" />
+        <img className="projectimg" src="./img/thehmm/pizzaprompt/boekje2.png" />
 
         <p className="extrainfo"><p>and a lot more...</p></p>
     </div>
