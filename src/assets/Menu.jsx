@@ -34,7 +34,7 @@ const Menu = ({small}) => {
         setTop(-400)
         setOpen(false)
       }else if(!open){
-        setTop(50)
+        setTop(65)
         setOpen(true)
       }
       
@@ -55,7 +55,7 @@ const Menu = ({small}) => {
     </div>
     :
     <>
-    <div className="icon" onClick={() => {handleMenu()}}>projects&#10549;&#xFE0E;</div>
+    <div className="icon" onClick={() => {handleMenu()}}>projects{!open?  <>&#10549;&#xFE0E;</> : <>&#10548;&#xFE0E;</>}</div>
     <div className="navigation" style={{top: top + "px"}}>
         <div className="nav" onClick={() => {navigate('odditype'); handleMenu()}}>odditype</div>
         <div className="nav" onClick={() => {navigate('hyperlink'); handleMenu()}}>hyperlink//</div>

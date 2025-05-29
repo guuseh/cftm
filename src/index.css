@@ -320,8 +320,7 @@ display: none
       float: right;
       text-align: right;
       height: 2.5rem;
-      /* display: flex; */
-      /* align-items: center; */
+      z-index: 500;
   }
   .right-nav{
       color: blue;
@@ -338,6 +337,9 @@ display: none
       display: flex;
       align-items: center;
       justify-content: end;
+      background-color: white;
+      z-index: 500;
+      position: relative;
   }
   .pages{
       display: block;
@@ -352,7 +354,7 @@ display: none
   .description{
       position: relative;
       width: 90vw;
-      z-index: 1;
+      z-index: 0;
       height: 100%;
       padding-right: 10px;
   }
@@ -369,13 +371,19 @@ display: none
       background-color: white;
       font-size: 1.4em;
   }
+  .nav:hover{
+  filter: none;
+}
+.nav:active{
+  background-color: blue;
+  color: white;
+}
 
   .navigation {
       padding: 0;
       width: 40%;
       position: fixed;
       /* top: -400px; */
-      bottom: 5vh;
       left: 5vw;
       border: 1px blue;
       z-index: 20;
@@ -409,7 +417,10 @@ display: none
     }
 
 .icon:hover{
-  filter: blur(2px);
+  filter: none;
+}
+.right-nav:hover {
+  filter: none;
 }
 .extrainfo{
   left: 0px;
