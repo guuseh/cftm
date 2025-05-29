@@ -26,27 +26,27 @@ const Hypertext = () => {
         </p>
 
         <div className="hypertextcontainer">
-        <video className="hypertextimg" style={{width: "100%"}} autoplay controls loop src="./img/hypertext/presentation.mp4" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/mindmap.jpg" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/processdrawing.jpeg" />
-        <img className="hypertextimg" style={{width: "100%"}} src="./img/hypertext/process1.png" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/scans3.jpg" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/scans4.jpg" />
-        <img className="hypertextimg" style={{width: "100%"}} src="./img/hypertext/scans6.jpg" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/process2.png" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/process3.png" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/process4.png" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/process5.png" />
+        <video style={{gridColumn: "1 / 7", width: '100%'}} className="hypertextimg" autoplay controls loop src="./img/hypertext/presentation.mp4" />
+        <img className="hypertextimg" style={{gridColumn: "1 / 4", width: "100%"}} src="./img/hypertext/mindmap.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "4 / 7", width: "100%"}} src="./img/hypertext/processdrawing.jpeg" />
+        <img className="hypertextimg" style={{gridColumn: "1 / 7", width: "100%"}} src="./img/hypertext/process1.png" />
+        <img className="hypertextimg" style={{gridColumn: "1 / 4", width: "100%"}} src="./img/hypertext/scans3.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "4 / 7", width: "100%"}} src="./img/hypertext/scans4.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "1 / 7", width: "100%"}} src="./img/hypertext/scans6.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "1 / 4", width: "100%"}} src="./img/hypertext/process2.png" />
+        <img className="hypertextimg" style={{gridColumn: "4 / 7", width: "100%"}} src="./img/hypertext/process3.png" />
+        <img className="hypertextimg" style={{gridColumn: "1 / 4", width: "100%"}} src="./img/hypertext/process4.png" />
+        <img className="hypertextimg" style={{gridColumn: "4 / 7", width: "100%"}} src="./img/hypertext/process5.png" />
 
         
-        <img className="hypertextimg" style={{width: "100%"}} src="./img/hypertext/scans10.jpg" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/scans9.jpg" />
-        <img className="hypertextimg" style={{width: "48%"}} src="./img/hypertext/scans7.jpg" />
-        <img className="hypertextimg" style={{width: "31%"}} src="./img/hypertext/scans1.jpg" />
-        <img className="hypertextimg" style={{width: "31%"}} src="./img/hypertext/scans8.jpg" />
-        <img className="hypertextimg" style={{width: "31%"}} src="./img/hypertext/scans5.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "1 / 7", width: "100%"}} src="./img/hypertext/scans10.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "1 / 4", width: "100%"}} src="./img/hypertext/scans9.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "4 / 7", width: "100%"}} src="./img/hypertext/scans7.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "1 / 3", width: "100%"}} src="./img/hypertext/scans1.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "3 / 5", width: "100%"}} src="./img/hypertext/scans8.jpg" />
+        <img className="hypertextimg" style={{gridColumn: "5 / 7", width: "100%"}} src="./img/hypertext/scans5.jpg" />
 
-        <iframe style={{border:"none", width: "100%", height: "500px"}} src="https://www.are.na/guus-hoeberechts/data-vizz-ipjjyriqkv0/embed" title=""></iframe>
+        <iframe style={{gridColumn: "1 / 7", border:"none", width: "100%", height: "500px"}} src="https://www.are.na/guus-hoeberechts/data-vizz-ipjjyriqkv0/embed" title=""></iframe>
 
         </div>
 
