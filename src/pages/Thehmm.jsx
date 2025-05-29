@@ -15,7 +15,7 @@ const Thehmm = () => {
 
         <img className="projectimg" src="./img/thehmm/metaphormaxxing/maxxing3.png" />
         <div className="imgcontainer">
-          <img src="./img/thehmm/metaphormaxxing/maxxing1.png" style={{width: "49%"}}/>
+          <img src="./img/thehmm/tooltip.gif" style={{width: "49%"}}/>
           <img src="./img/thehmm/metaphormaxxing/maxxing2.png" style={{width: "49%"}}/>
         </div>
         <img className="projectimg" src="./img/thehmm/metaphormaxxing/figma.png" />

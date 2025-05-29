@@ -121,18 +121,12 @@ a:visited{
   text-decoration: line-through;
 }
 
-/* a:hover{
+a:hover{
   text-decoration: none;
-  filter: blur(2px);
-} */
-.link:hover{
   filter: blur(2px);
 }
 
-/*.tooltip:hover a{
-  text-decoration: none;
-  filter: blur(4px);
-}*/
+
 
 a:active{
   color: white;
@@ -159,6 +153,10 @@ a:active{
   overflow: auto;
   height: 70%;
   padding-right: 10px;
+}
+
+.hypertext-text{
+  columns: 2;
 }
 
 .extrainfo{
@@ -193,6 +191,7 @@ a:active{
   flex-wrap:wrap;
   gap: 25px;
   margin-top: 50px;
+  justify-content: space-between;
 }
 .hypertextimg{
   box-shadow: 0px 0px 20px 2px blue;
@@ -210,45 +209,6 @@ a:active{
 .imgcontainer img{
   box-shadow: 0px 0px 20px 2px blue;
 }
-
-
-
-.button{
-  border-radius: 50%;
-  padding: 7px 10px;
-  background-color: blue;
-  color: white;
-  border: none;
-}
-
-.button:hover{
- box-shadow: 0px 0px 20px 2px blue;
-}
-
-
-.tooltip {
-position: relative;
-width: 200px;
-z-index: 6;
-display: none;
-}
-
-.tooltip2 {
-position: relative;
-width: 100%;
-z-index: 6;
-}
-
-.imghover{
-  position: fixed;
-  display: none;
-  pointer-events: none;
-}
-
-#homeimg{
-  display:none;
-}
-
 
 
 /* NAVIGATION CSS */
@@ -269,7 +229,6 @@ display: none
   border-width: 1px;
   width: 225px;
   /* background-color: white; */
-  font-family: 'vendetta';
   font-size: 1.2em;
   word-wrap: break-word;
   z-index: 10;
@@ -300,38 +259,46 @@ display: none
   border: 1px blue;
 }
 
-#writingnav {
-  display: inline-block;
-  margin: 2px;
-  margin-left: 0px;
-  padding: 5px 15px;
-  border-style: solid;
-  border-color: blue;
-  border-width: .5px;
-  background-color: transparent;
-  font-family: 'vendetta';
-  font-size: 1.7em;
-  z-index: 6;
+
+@media (max-width: 900px){
+  .description{
+    position:relative;
+    width: 100%;
+    height: auto;
 }
-#writingnav:hover{
-  filter: blur(2px);
+.hypertext-text{
+  columns: 1;
+}
+.pages{
+  padding-right: 50px;
 }
 
-.vimeocontEI{
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-.vimeoiframeEI{
-  position: absolute;
-  top: 0;
-  left: 0;
+.extrainfo{
+  left: 0px;
   width: 100%;
-  height: 100%;
-  filter: none;
 }
+.extrainfo p{
+  max-width: 80%;
+}
+.projectimg{
+  margin: 25px 0 0 0px;
+  width: 100%;
+}
+
+.hypertextcontainer{
+  gap: 15px;
+}
+
+.imgcontainer{
+  margin: 25px 0 0 0px;
+  width: 100%;
+}
+
+}
+
+
+
+
 
 
 @media (max-width: 600px){
@@ -363,7 +330,7 @@ display: none
       border-color: blue;
       border-style: solid;
       border-width: 1px;
-      font-family: 'vendetta';
+      height: 2rem;
   }
   .pages{
       display: block;
@@ -384,45 +351,65 @@ display: none
   }
   .nav {
       display: block;
+      height: 2rem;
       margin: 5px;
       margin-left: 0px;
-      padding: 5px 0px 5px 10vw;
+      padding: 0px 0px 2px 2px;
       border-style: solid;
       border-color: blue;
       border-width: 1px;
       min-width: 50vw;
       background-color: white;
-      font-family: 'vendetta';
       font-size: 1.4em;
   }
+
   .navigation {
       padding: 0;
-      width: 20%;
+      width: 40%;
       position: fixed;
-      top: auto;
+      /* top: -400px; */
       bottom: 5vh;
       left: 5vw;
-      display: none;
       border: 1px blue;
       z-index: 20;
-  }
-  .navigation.responsive{
-      display: inline-block;
+      transition: top 0.5s;
+      height: fit-content;
   }
   .icon{
       display: block;
       position: fixed;
-      bottom: 2vh;
-      left:5vw;
-      background-color: blue;
-      color: white;
-      z-index: 20;
+      font-family: "Times New Roman";
+      color: blue;
+      height: 2rem;
+      margin: 5px;
+      margin-left: 0px;
+      padding: 0px 0px 0px 30px;
+      line-height: 1.9rem;
+      border-style: solid;
+      border-color: blue;
+      border-width: 1px;
+      min-width: 40vw;
+      background-color: white;
+      font-size: 1.4em;
+      top: 10px;
+      cursor: pointer;
+      z-index: 1000;
   }
-  .extrainfo{
-      display:inline-block;
-      position: initial;
-      z-index: 1;
-  }
+    .icon:active {
+    background-color: blue;
+    color: white;
+    }
+
+.icon:hover{
+  filter: blur(2px);
+}
+.extrainfo{
+  left: 0px;
+  width: 100%;
+}
+.extrainfo p{
+  max-width: 80%;
+}
   .projectimg{
       margin: 3vh 2vh 3vh 2vh;
       position: initial;
@@ -430,80 +417,5 @@ display: none
       box-shadow: 0px 0px 20px 2px blue;
       max-width: 80vw;
   }
-  .slideshow{
-      position: initial;
-      margin-bottom: 10vh;
-      box-shadow: 0px 0px 20px 2px blue;
-      max-width: 90vw;
-      margin-top: 5vh;
-  }
-  .container{
-      position: initial;
-      max-width: 90vw;
-      margin-bottom: 5vh;
-  }
-  .alteregoimg{
-      margin: 10px 0px 10px 0px;
-      display: inline-block;
-      box-shadow: 0px 0px 20px 2px blue;
-      width: 90vw;
-  }
-  .vimeocont{
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
-      max-width: 100%;
-  }
-  .vimeoiframe{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      filter: none;
-  }
-  #lijntjesensuperformulesamen{
-      width: 90vw;
-  }
-  .kurrentp{
-      padding: 0;
-      width: 90vw;
-      margin: 0;
-  }
-  #writingnav {
-      display: inline-block;
-      margin: 2px;
-      margin-left: 0px;
-      padding: 5px 15px;
-      border-style: solid;
-      border-color: blue;
-      border-width: 1px;
-      background-color: transparent;
-      font-family: 'vendetta';
-      font-size: 1.4em;
-      z-index: 6;
-  }
-  .about{
-      margin-bottom: 10vh;
-  }
-  .cv{
-      margin-bottom: 10vh;
-      width: 90vw;
-      /* word-wrap: break-word; */
-      overflow-wrap: break-word;
-  }
-  .contenthover {
-      display: none;
-  }
-  #homeimg{
-      display:block;
-      width: 70vw;
-      padding-top: 10vh;
-      margin-left: 10vw;
-  }
-  #homeimg img{
-      width: 70vw;
-      /* -webkit-filter: drop-shadow(0px 0px 15px blue); */
-  }
+
 }

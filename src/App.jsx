@@ -46,7 +46,7 @@ function App() {
     return matches;
   }
   
-  const useIsSmall = () => useMediaQuery("(min-width: 1000px");
+  const useIsSmall = () => useMediaQuery("(min-width: 600px");
 
   const isNotSmall = useIsSmall();
 
