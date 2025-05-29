@@ -3,6 +3,7 @@ import React from 'react'
 const Hyperlink = () => {
   return (
     <div>
+      <h5>interactive web animation – 2024</h5>
         <h1>hyperlink//</h1>
 
         <p className="description">
@@ -10,6 +11,13 @@ const Hyperlink = () => {
         <br/><br/>
         By treating the personal site as both mirror and manifestation of the fragmented self, hyperlink// reclaims a digital corner for individuality. It questions how hyperconnectivity has redefined our sense of identity and community, and invites viewers to consider what it means to truly inhabit a space online.
         </p>
+
+        <img className="projectimg" src="/img/hyperlink/hyperlink1.gif" />
+        <img className="projectimg" src="/img/hyperlink/hyperlink2.gif" />
+        <img className="projectimg" src="/img/hyperlink/hyperlink3.gif" />
+        <img className="projectimg" src="/img/hyperlink/hyperlink4.gif" />
+        <img className="projectimg" src="/img/hyperlink/hyperlink6.gif" />
+        <img className="projectimg" src="/img/hyperlink/hyperlink5.gif" />
     </div>
   )
 }

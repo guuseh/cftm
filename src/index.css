@@ -61,6 +61,15 @@ h1{
   font-weight:600;
 }
 
+h5{
+  font-weight: normal;
+  background-color: blue;
+  color: white;
+  width: fit-content;
+  padding: 2px 3px;
+  margin-bottom: 5px;
+}
+
 p{
   margin-top: 0.5rem;
 }
@@ -131,10 +140,6 @@ a:active{
   text-decoration: none;
 }
 
-.guus{
-  font-family: 'vendetta';
-  font-size: 1.7em;
-}
 
 .pages{
   display: block;
@@ -143,6 +148,7 @@ a:active{
   color: blue;
   padding-right: 300px;
   width: 100%;
+  margin-bottom: 5vh;
 }
 
 .description{
@@ -155,46 +161,57 @@ a:active{
   padding-right: 10px;
 }
 
-.kurrentp{
-  width:500px; 
-  margin-left: 70px;
-}
-
 .extrainfo{
   display:inline-block;
-  position: absolute;
-  right: 100px;
-  width: 250px;
+  position: relative;
+  left: 400px;
+  width: 80%;
   z-index: 1;
+  font-weight: bolder;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content:center ; 
+}
+.extrainfo p{
+  background-color: blue;
+  color: white;
+  padding: 2px 4px;
 }
 
 .projectimg{
-  margin: 0 0 0 400px;
+  margin: 25px 0 0 400px;
   position: relative;
   display: block;
   box-shadow: 0px 0px 20px 2px blue;
   width: 80%;
-  height: 300px;
+  height: auto;
 }
 
-.container{
-  position: relative;
-  left: 250px;
+.hypertextcontainer{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 25px;
+  margin-top: 50px;
 }
-
-.alteregoimg{
-  margin: 10px;
-  display: inline-block;
+.hypertextimg{
   box-shadow: 0px 0px 20px 2px blue;
 }
 
-.slideshow{
+.imgcontainer{
+  margin: 25px 0 0 400px;
   position: relative;
-  top: 93px;
-  left: 170px;
-  margin-bottom: 200px;
+  display: flex;
+  width: 80%;
+  height: auto;
+  gap: 20px;
+  justify-content: space-between;
+}
+.imgcontainer img{
   box-shadow: 0px 0px 20px 2px blue;
 }
+
+
 
 .button{
   border-radius: 50%;
@@ -208,17 +225,12 @@ a:active{
  box-shadow: 0px 0px 20px 2px blue;
 }
 
-canvas { 
-display: block; 
-outline: 0px;  
-  z-index: -1;
-}
-
 
 .tooltip {
 position: relative;
 width: 200px;
 z-index: 6;
+display: none;
 }
 
 .tooltip2 {
@@ -237,47 +249,6 @@ z-index: 6;
   display:none;
 }
 
-
-/* ANIMATION CSS */
-.intro{
-  position: fixed;
-  z-index: 2;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: white;
-  transition: 0.5s;
-}
-
-.logo-header{
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: blue;
-  text-align: center;
-}
-
-.logo{
-  position: relative;
-  display: inline-block;
-  bottom: -20px;
-  opacity: 0;
-  font-family: 'vendetta';
-}
-
-.logo.active{
-  bottom: 0;
-  opacity: 1;
-  transition: ease-in-out 1s;
-}
-
-.logo.fade{
-  bottom: 150px;
-  opacity: 0;
-  transition: ease-in-out 1s;
-}
 
 
 /* NAVIGATION CSS */

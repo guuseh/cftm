@@ -3,6 +3,7 @@ import React from 'react'
 const Odditype = () => {
   return (
     <div>
+      <h5>typography app – 2023</h5>
         <h1>odditype</h1>
 
         <p className="description"><a href="https://www.odditype.nl" target="_blank" rel="noreferrer">Odditype&#10548;</a> is a website that randomises a given typeface to create a completely new feeling for it. Depending on the typeface, the changes can be small or drastic.
@@ -10,7 +11,11 @@ const Odditype = () => {
         For an exhibition, a functionality was added to write your own message and print it out on a receipt printer.</p>
 
 
-        <img className="projectimg" src=""></img>
+        <img className="projectimg" src="/img/odditype/odditype.gif"></img>
+        <img className="projectimg" src="/img/odditype/odditype1.png"></img>
+        <img className="projectimg" src="/img/odditype/odditype2.png"></img>
+        <img className="projectimg" src="/img/odditype/odditype3.png"></img>
+        <img className="projectimg" src="/img/odditype/odditype4.png"></img>
     </div>
   )
 }
